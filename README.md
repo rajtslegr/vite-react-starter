@@ -12,7 +12,7 @@ Opinionated Vite template.
 - Husky and lint-staged
 - pnpm
 
-## Gettings started
+## Getting started
 
 Install dependencies:
 ```
