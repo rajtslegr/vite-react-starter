@@ -11,6 +11,7 @@ Opinionated Vite template.
 - ESLint and Prettier
 - Husky and lint-staged
 - Vitest and React Testing Library
+- Playwright
 - pnpm
 
 ## Getting started
