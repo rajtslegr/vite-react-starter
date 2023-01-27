@@ -1,19 +1,10 @@
 {
   "commitMessagePrefix": "⬆️ ",
-  "extends": [
-    "config:base"
-  ],
-  "reviewers": [
-    "rajtslegr"
-  ],
+  "extends": ["config:base"],
+  "reviewers": ["rajtslegr"],
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest"
-      ],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     }
   ]

@@ -1,19 +1,9 @@
 {
-  "extends": [
-    "airbnb-base",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
   "overrides": [
     {
-      "files": [
-        "**/*.ts",
-        "**/*.tsx"
-      ],
-      "plugins": [
-        "@typescript-eslint",
-        "tailwindcss",
-        "unused-imports"
-      ],
+      "files": ["**/*.ts", "**/*.tsx"],
+      "plugins": ["@typescript-eslint", "tailwindcss", "unused-imports"],
       "extends": [
         "airbnb-typescript",
         "plugin:prettier/recommended",
@@ -41,11 +31,7 @@
               "caseInsensitive": true,
               "order": "asc"
             },
-            "groups": [
-              "builtin",
-              "external",
-              "internal"
-            ],
+            "groups": ["builtin", "external", "internal"],
             "newlines-between": "always",
             "pathGroups": [
               {
@@ -54,9 +40,7 @@
                 "position": "before"
               }
             ],
-            "pathGroupsExcludedImportTypes": [
-              "react"
-            ]
+            "pathGroupsExcludedImportTypes": ["react"]
           }
         ],
         "import/prefer-default-export": "off",
@@ -64,9 +48,7 @@
         "no-console": [
           "error",
           {
-            "allow": [
-              "error"
-            ]
+            "allow": ["error"]
           }
         ],
         "react/destructuring-assignment": "off",
@@ -91,14 +73,9 @@
       }
     },
     {
-      "files": [
-        "vite.config.ts",
-        "cypress.config.ts"
-      ],
+      "files": ["vite.config.ts"],
       "parserOptions": {
-        "project": [
-          "./tsconfig.node.json"
-        ]
+        "project": ["./tsconfig.node.json"]
       }
     }
   ]
