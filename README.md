@@ -10,16 +10,19 @@ Opinionated Vite template.
 - Tailwind CSS
 - ESLint and Prettier
 - Husky and lint-staged
+- Vitest and React Testing Library
 - pnpm
 
 ## Getting started
 
 Install dependencies:
+
 ```
 pnpm install
 ```
 
 Run project:
+
 ```
 pnpm dev
 ```

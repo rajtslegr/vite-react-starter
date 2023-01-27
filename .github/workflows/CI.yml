@@ -34,9 +34,12 @@ jobs:
             ${{ runner.os }}-pnpm-store-
       - name: Install
         run: pnpm install --frozen-lockfile
-        
+
       - name: Type Check
-        run: pnpm run type-check
+        run: pnpm run type:check
+
+      - name: Test
+        run: pnpm run test
 
       - name: Lint
         run: pnpm run lint
