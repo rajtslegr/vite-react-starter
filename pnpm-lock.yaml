@@ -21,6 +21,7 @@ specifiers:
   eslint-plugin-react: 7.32.1
   eslint-plugin-react-hooks: 4.6.0
   eslint-plugin-tailwindcss: 3.8.2
+  eslint-plugin-testing-library: 5.9.1
   eslint-plugin-unused-imports: 2.0.0
   husky: 8.0.3
   jsdom: 21.1.0
@@ -58,6 +59,7 @@ devDependencies:
   eslint-plugin-react: 7.32.1_eslint@8.32.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.32.0
   eslint-plugin-tailwindcss: 3.8.2_qky6impwyxxk2bvue62g4cldp4
+  eslint-plugin-testing-library: 5.9.1_7uibuqfxkfaozanbtbziikiqje
   eslint-plugin-unused-imports: 2.0.0_efvzgobb4ehfcu2vjpj4b4xs5a
   husky: 8.0.3
   jsdom: 21.1.0
@@ -2734,6 +2736,22 @@ packages:
       vue-eslint-parser: 9.1.0_eslint@8.32.0
     transitivePeerDependencies:
       - eslint
+      - supports-color
+      - typescript
+    dev: true
+
+  /eslint-plugin-testing-library/5.9.1_7uibuqfxkfaozanbtbziikiqje:
+    resolution:
+      {
+        integrity: sha512-6BQp3tmb79jLLasPHJmy8DnxREe+2Pgf7L+7o09TSWPfdqqtQfRZmZNetr5mOs3yqZk/MRNxpN3RUpJe0wB4LQ==,
+      }
+    engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6' }
+    peerDependencies:
+      eslint: ^7.5.0 || ^8.0.0
+    dependencies:
+      '@typescript-eslint/utils': 5.49.0_7uibuqfxkfaozanbtbziikiqje
+      eslint: 8.32.0
+    transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
