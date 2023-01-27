@@ -48,5 +48,10 @@ jobs:
       - name: Lint
         run: pnpm run lint
 
+      - name: e2e install
+        run: pnpm dlx playwright install --with-deps
+      - name: e2e
+        run: pnpm dlx playwright test
+
       - name: Build
         run: pnpm run build

@@ -13,6 +13,7 @@
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "test:ui": "vitest --ui",
+    "e2e": "playwright test",
     "lint": "eslint --cache --ignore-path .gitignore --ext .ts,.tsx .",
     "lint:fix": "eslint --cache --fix --ignore-path .gitignore --ext .ts,.tsx .",
     "type:check": "tsc --noEmit --pretty"
@@ -22,6 +23,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.30.0",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "14.4.3",
@@ -39,6 +41,7 @@
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-playwright": "^0.12.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.32.1",
     "eslint-plugin-react-hooks": "4.6.0",

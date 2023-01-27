@@ -73,14 +73,18 @@ module.exports = {
       },
     },
     {
-      files: ['vite.config.ts'],
+      files: ['vite.config.ts', 'playwright.config.ts'],
       parserOptions: {
         project: ['./tsconfig.node.json'],
       },
     },
     {
-      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+      files: './src/?(*.)+(spec|test).[jt]s?(x)',
       extends: ['plugin:testing-library/react'],
+    },
+    {
+      files: './e2e/**/?(*.)+(spec|test).[jt]s?(x)',
+      extends: ['plugin:playwright/playwright-test'],
     },
   ],
 };
