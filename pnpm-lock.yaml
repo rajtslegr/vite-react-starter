@@ -29,7 +29,7 @@ specifiers:
   eslint-plugin-unused-imports: 2.0.0
   husky: 8.0.3
   jsdom: 21.1.0
-  lint-staged: 13.1.0
+  lint-staged: 13.1.1
   postcss: 8.4.21
   prettier: 2.8.3
   react: 18.2.0
@@ -72,7 +72,7 @@ devDependencies:
   eslint-plugin-unused-imports: 2.0.0_nvprg6vkh5ygsdwfa2izsa3vfm
   husky: 8.0.3
   jsdom: 21.1.0
-  lint-staged: 13.1.0
+  lint-staged: 13.1.1
   postcss: 8.4.21
   prettier: 2.8.3
   tailwindcss: 3.2.4_postcss@8.4.21
@@ -3040,8 +3040,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /lint-staged/13.1.0:
-    resolution: {integrity: sha512-pn/sR8IrcF/T0vpWLilih8jmVouMlxqXxKuAojmbiGX5n/gDnz+abdPptlj0vYnbfE0SQNl3CY/HwtM0+yfOVQ==}
+  /lint-staged/13.1.1:
+    resolution: {integrity: sha512-LLJLO0Kdbcv2a+CvSF4p1M7jBZOajKSMpBUvyR8+bXccsqPER0/NxTFQSpNHjqwV9kM3tkHczYerTB5wI+bksQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
