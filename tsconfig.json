@@ -15,7 +15,13 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals"],
+    "baseUrl": ".",
+    "paths": {
+      "@*": ["src/*"],
+      "@test/*": ["src/test/*"],
+      "@components/*": ["src/components/*"]
+    }
   },
   "include": ["src", "e2e"],
   "references": [
