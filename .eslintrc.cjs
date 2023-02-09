@@ -27,20 +27,25 @@ module.exports = {
         'import/order': [
           'error',
           {
-            alphabetize: {
-              caseInsensitive: true,
-              order: 'asc',
-            },
             groups: ['builtin', 'external', 'internal'],
-            'newlines-between': 'always',
             pathGroups: [
               {
+                pattern: '@**',
                 group: 'external',
+                position: 'after',
+              },
+              {
                 pattern: 'react',
+                group: 'external',
                 position: 'before',
               },
             ],
             pathGroupsExcludedImportTypes: ['react'],
+            'newlines-between': 'always',
+            alphabetize: {
+              order: 'asc',
+              caseInsensitive: true,
+            },
           },
         ],
         'import/prefer-default-export': 'off',

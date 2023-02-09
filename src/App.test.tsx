@@ -1,5 +1,6 @@
-import App from './App';
-import { render, screen, userEvent } from './test/test-utils';
+import { render, screen, userEvent } from '@test/test-utils';
+
+import App from '@App';
 
 describe('App', () => {
   it('the title is visible', () => {

@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import Button from '@components/Button';
+
 const App: React.FC = () => {
   const [count, setCount] = useState(0);
 
@@ -23,12 +25,9 @@ const App: React.FC = () => {
       </div>
       <h1 className="text-5xl">Vite + React</h1>
       <div className="space-y-2 p-8">
-        <button
-          onClick={() => setCount((previousCount) => previousCount + 1)}
-          className="cursor-pointer rounded-lg border border-solid border-transparent bg-[#1a1a1a] p-2 text-base font-medium transition-colors hover:border-[#646cff]"
-        >
+        <Button onClick={() => setCount((previousCount) => previousCount + 1)}>
           count is {count}
-        </button>
+        </Button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
