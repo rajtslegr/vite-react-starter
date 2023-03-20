@@ -31,7 +31,7 @@ specifiers:
   jsdom: 21.1.1
   lint-staged: 13.2.0
   postcss: 8.4.21
-  prettier: 2.8.4
+  prettier: 2.8.5
   react: 18.2.0
   react-dom: 18.2.0
   tailwindcss: 3.2.7
@@ -65,7 +65,7 @@ devDependencies:
   eslint-plugin-import: 2.27.5_a7er6olmtneep4uytpot6gt7wu
   eslint-plugin-jsx-a11y: 6.7.1_eslint@8.36.0
   eslint-plugin-playwright: 0.12.0_eslint@8.36.0
-  eslint-plugin-prettier: 4.2.1_eqzx3hpkgx5nnvxls3azrcc7dm
+  eslint-plugin-prettier: 4.2.1_e4jq4ivnnnwcsomlcyj2qoljy4
   eslint-plugin-react: 7.32.2_eslint@8.36.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.36.0
   eslint-plugin-tailwindcss: 3.10.1_tailwindcss@3.2.7
@@ -75,7 +75,7 @@ devDependencies:
   jsdom: 21.1.1
   lint-staged: 13.2.0
   postcss: 8.4.21
-  prettier: 2.8.4
+  prettier: 2.8.5
   tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 5.0.2
   vite: 4.2.0
@@ -2053,7 +2053,7 @@ packages:
       eslint: 8.36.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_eqzx3hpkgx5nnvxls3azrcc7dm:
+  /eslint-plugin-prettier/4.2.1_e4jq4ivnnnwcsomlcyj2qoljy4:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2066,7 +2066,7 @@ packages:
     dependencies:
       eslint: 8.36.0
       eslint-config-prettier: 8.7.0_eslint@8.36.0
-      prettier: 2.8.4
+      prettier: 2.8.5
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -3601,8 +3601,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+  /prettier/2.8.5:
+    resolution: {integrity: sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
