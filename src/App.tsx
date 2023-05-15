@@ -6,19 +6,19 @@ const App: React.FC = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="font-inter flex min-h-screen flex-col place-items-center justify-center bg-[#242424] p-2 text-center text-base font-normal leading-6 text-gray-50">
+    <div className="flex min-h-screen flex-col place-items-center justify-center bg-[#242424] p-2 text-center font-inter text-base font-normal leading-6 text-gray-50">
       <div className="flex">
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img
             src="/vite.svg"
-            className="hover:drop-shadow-vite h h-44 p-6"
+            className="h h-44 p-6 hover:drop-shadow-vite"
             alt="Vite logo"
           />
         </a>
         <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           <img
             src="/react.svg"
-            className="hover:drop-shadow-react h-44 p-6 hover:animate-spin motion-reduce:animate-none"
+            className="h-44 p-6 hover:animate-spin hover:drop-shadow-react motion-reduce:animate-none"
             alt="React logo"
           />
         </a>
