@@ -51,7 +51,7 @@ jobs:
       - name: e2e install
         run: pnpm dlx playwright install --with-deps
       - name: e2e
-        run: pnpm dlx playwright test
+        run: pnpm run e2e
 
       - name: Build
         run: pnpm run build
