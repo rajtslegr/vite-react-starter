@@ -94,8 +94,8 @@ devDependencies:
     specifier: 8.0.3
     version: 8.0.3
   jsdom:
-    specifier: 22.0.0
-    version: 22.0.0
+    specifier: 22.1.0
+    version: 22.1.0
   lint-staged:
     specifier: 13.2.2
     version: 13.2.2
@@ -119,7 +119,7 @@ devDependencies:
     version: 4.2.0(typescript@5.0.4)(vite@4.3.9)
   vitest:
     specifier: 0.31.1
-    version: 0.31.1(@vitest/ui@0.31.1)(jsdom@22.0.0)
+    version: 0.31.1(@vitest/ui@0.31.1)(jsdom@22.1.0)
 
 packages:
 
@@ -1096,7 +1096,7 @@ packages:
       magic-string: 0.30.0
       picocolors: 1.0.0
       std-env: 3.3.2
-      vitest: 0.31.1(@vitest/ui@0.31.1)(jsdom@22.0.0)
+      vitest: 0.31.1(@vitest/ui@0.31.1)(jsdom@22.1.0)
     dev: true
 
   /@vitest/expect@0.31.1:
@@ -1142,7 +1142,7 @@ packages:
       pathe: 1.1.0
       picocolors: 1.0.0
       sirv: 2.0.3
-      vitest: 0.31.1(@vitest/ui@0.31.1)(jsdom@22.0.0)
+      vitest: 0.31.1(@vitest/ui@0.31.1)(jsdom@22.1.0)
     dev: true
 
   /@vitest/utils@0.31.1:
@@ -2972,8 +2972,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /jsdom@22.0.0:
-    resolution: {integrity: sha512-p5ZTEb5h+O+iU02t0GfEjAnkdYPrQSkfuTSMkMYyIoMvUNEHsbG0bHHbfXIcfTqD2UfvjQX7mmgiFsyRwGscVw==}
+  /jsdom@22.1.0:
+    resolution: {integrity: sha512-/9AVW7xNbsBv6GfWho4TTNjEo9fe6Zhf9O7s0Fhhr3u+awPwAJMKwAMXnkk5vBxflqLW9hTHX/0cs+P3gW+cQw==}
     engines: {node: '>=16'}
     peerDependencies:
       canvas: ^2.5.0
@@ -4412,7 +4412,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.31.1(@vitest/ui@0.31.1)(jsdom@22.0.0):
+  /vitest@0.31.1(@vitest/ui@0.31.1)(jsdom@22.1.0):
     resolution: {integrity: sha512-/dOoOgzoFk/5pTvg1E65WVaobknWREN15+HF+0ucudo3dDG/vCZoXTQrjIfEaWvQXmqScwkRodrTbM/ScMpRcQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -4458,7 +4458,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      jsdom: 22.0.0
+      jsdom: 22.1.0
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
