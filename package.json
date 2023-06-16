@@ -37,7 +37,7 @@
     "@vitest/coverage-c8": "0.32.2",
     "@vitest/ui": "0.32.2",
     "autoprefixer": "10.4.14",
-    "eslint": "8.42.0",
+    "eslint": "8.43.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-airbnb-typescript": "17.0.0",
     "eslint-config-prettier": "8.8.0",
