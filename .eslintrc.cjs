@@ -30,14 +30,25 @@ module.exports = {
             groups: ['builtin', 'external', 'internal'],
             pathGroups: [
               {
-                pattern: '@**',
-                group: 'external',
-                position: 'after',
-              },
-              {
                 pattern: 'react',
                 group: 'external',
                 position: 'before',
+              },
+              {
+                pattern: '@vitejs/*',
+                group: 'external',
+              },
+              {
+                pattern: '@testing-library/*',
+                group: 'external',
+              },
+              {
+                pattern: '@*/**',
+                group: 'internal',
+              },
+              {
+                pattern: './**',
+                group: 'internal',
               },
             ],
             pathGroupsExcludedImportTypes: ['react'],

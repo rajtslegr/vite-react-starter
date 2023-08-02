@@ -18,9 +18,7 @@
     "types": ["vitest/globals"],
     "baseUrl": ".",
     "paths": {
-      "@*": ["src/*"],
-      "@test/*": ["src/test/*"],
-      "@components/*": ["src/components/*"]
+      "@*": ["src/*"]
     }
   },
   "include": ["src", "e2e"],
