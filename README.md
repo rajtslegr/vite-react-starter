@@ -12,18 +12,29 @@ Opinionated Vite template.
 - Husky and lint-staged
 - Vitest and React Testing Library
 - Playwright
+- Storybook
 - pnpm
 
 ## Getting started
 
 Install dependencies:
 
-```
+```bash
 pnpm install
 ```
 
 Run project:
 
+```bash
+pnpm dev
 ```
+
+Run storybook:
+
+```bash
+pnpm storybook
+```
+
+```bash
 pnpm dev
 ```

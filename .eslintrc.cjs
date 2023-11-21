@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ['airbnb-base', 'plugin:prettier/recommended'],
+  extends: [
+    'airbnb-base',
+    'plugin:prettier/recommended',
+    'plugin:storybook/recommended',
+  ],
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
