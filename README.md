@@ -34,7 +34,3 @@ Run storybook:
 ```bash
 pnpm storybook
 ```
-
-```bash
-pnpm dev
-```
