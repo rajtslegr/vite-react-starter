@@ -98,8 +98,8 @@ devDependencies:
     specifier: 6.8.0
     version: 6.8.0(eslint@8.56.0)
   eslint-plugin-playwright:
-    specifier: 1.1.0
-    version: 1.1.0(eslint@8.56.0)
+    specifier: 1.1.1
+    version: 1.1.1(eslint@8.56.0)
   eslint-plugin-prettier:
     specifier: 5.1.3
     version: 5.1.3(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.2.5)
@@ -5980,8 +5980,8 @@ packages:
       object.fromentries: 2.0.7
     dev: true
 
-  /eslint-plugin-playwright@1.1.0(eslint@8.56.0):
-    resolution: {integrity: sha512-HYh91H2I5Tf7HZ2LNnP7l9bRbharWomN1RzXMA/8KcTf1UDoc7OJxulny2O5QWxghBJk0MoElG6sil0fkPwnSA==}
+  /eslint-plugin-playwright@1.1.1(eslint@8.56.0):
+    resolution: {integrity: sha512-UaOMTdxeInw3N0KEEQMCvyD4pJ+NIZpIf9Htq32wr98AM48vyLrPLVBRXw2lCgLTk7LWgtV4O+OZ2j0tXhOqgQ==}
     engines: {node: '>=16.6.0'}
     peerDependencies:
       eslint: '>=7'
