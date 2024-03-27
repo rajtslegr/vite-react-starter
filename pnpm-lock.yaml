@@ -111,7 +111,7 @@ devDependencies:
     version: 0.8.0(eslint@8.57.0)(typescript@5.4.3)
   eslint-plugin-tailwindcss:
     specifier: 3.15.1
-    version: 3.15.1(tailwindcss@3.4.1)
+    version: 3.15.1(tailwindcss@3.4.2)
   eslint-plugin-testing-library:
     specifier: 6.2.0
     version: 6.2.0(eslint@8.57.0)(typescript@5.4.3)
@@ -137,8 +137,8 @@ devDependencies:
     specifier: 8.0.4
     version: 8.0.4(react-dom@18.2.0)(react@18.2.0)
   tailwindcss:
-    specifier: 3.4.1
-    version: 3.4.1
+    specifier: 3.4.2
+    version: 3.4.2
   typescript:
     specifier: 5.4.3
     version: 5.4.3
@@ -5304,7 +5304,7 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-tailwindcss@3.15.1(tailwindcss@3.4.1):
+  /eslint-plugin-tailwindcss@3.15.1(tailwindcss@3.4.2):
     resolution: {integrity: sha512-4RXRMIaMG07C2TBEW1k0VM4+dDazz1kxcZhkK4zirvmHGZTA4jnlSO2kq5mamuSPi+Wo17dh2SlC8IyFBuCd7Q==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
@@ -5312,7 +5312,7 @@ packages:
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.38
-      tailwindcss: 3.4.1
+      tailwindcss: 3.4.2
     dev: true
 
   /eslint-plugin-testing-library@6.2.0(eslint@8.57.0)(typescript@5.4.3):
@@ -6607,8 +6607,8 @@ packages:
       minimatch: 3.1.2
     dev: true
 
-  /jiti@1.20.0:
-    resolution: {integrity: sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==}
+  /jiti@1.21.0:
+    resolution: {integrity: sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==}
     hasBin: true
     dev: true
 
@@ -8716,8 +8716,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /tailwindcss@3.4.1:
-    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
+  /tailwindcss@3.4.2:
+    resolution: {integrity: sha512-1kIzVecynNKMhhX8mPTOwTkkVHupUTMbEvk4n1ByxdM8sQTJ8fE41Y4TdORG6GmiVXHhfZ/++0hiIFJFwfadsA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -8729,7 +8729,7 @@ packages:
       fast-glob: 3.3.2
       glob-parent: 6.0.2
       is-glob: 4.0.3
-      jiti: 1.20.0
+      jiti: 1.21.0
       lilconfig: 2.1.0
       micromatch: 4.0.5
       normalize-path: 3.0.0
