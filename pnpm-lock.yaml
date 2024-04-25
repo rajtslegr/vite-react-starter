@@ -18,7 +18,7 @@ devDependencies:
     version: 1.43.1
   '@storybook/addon-essentials':
     specifier: 8.0.9
-    version: 8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0)
+    version: 8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0)
   '@storybook/addon-interactions':
     specifier: 8.0.9
     version: 8.0.9(vitest@1.5.2)
@@ -30,7 +30,7 @@ devDependencies:
     version: 8.0.9
   '@storybook/blocks':
     specifier: 8.0.9
-    version: 8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0)
+    version: 8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0)
   '@storybook/react':
     specifier: 8.0.9
     version: 8.0.9(react-dom@18.3.0)(react@18.3.0)(typescript@5.4.5)
@@ -53,11 +53,11 @@ devDependencies:
     specifier: 14.5.2
     version: 14.5.2(@testing-library/dom@10.0.0)
   '@types/react':
-    specifier: 18.2.79
-    version: 18.2.79
+    specifier: 18.3.0
+    version: 18.3.0
   '@types/react-dom':
-    specifier: 18.2.25
-    version: 18.2.25
+    specifier: 18.3.0
+    version: 18.3.0
   '@typescript-eslint/eslint-plugin':
     specifier: 7.7.1
     version: 7.7.1(@typescript-eslint/parser@7.7.1)(eslint@8.57.0)(typescript@5.4.5)
@@ -1975,14 +1975,14 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@mdx-js/react@3.0.1(@types/react@18.2.79)(react@18.3.0):
+  /@mdx-js/react@3.0.1(@types/react@18.3.0)(react@18.3.0):
     resolution: {integrity: sha512-9ZrPIU4MGf6et1m1ov3zKf+q9+deetI51zprKB1D/z3NOb+rUxxtEl3mCjW5wTGh6VhRdwPueh1oRzi6ezkA8A==}
     peerDependencies:
       '@types/react': '>=16'
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.10
-      '@types/react': 18.2.79
+      '@types/react': 18.3.0
       react: 18.3.0
     dev: true
 
@@ -2046,7 +2046,7 @@ packages:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
     dev: true
 
-  /@radix-ui/react-compose-refs@1.0.1(@types/react@18.2.79)(react@18.3.0):
+  /@radix-ui/react-compose-refs@1.0.1(@types/react@18.3.0)(react@18.3.0):
     resolution: {integrity: sha512-fDSBgd44FKHa1FRMU59qBMPFcl2PZE+2nmqunj+BWFyYYjnhIDWL2ItDs3rrbJDQOtzt5nIebLCQc4QRfz6LJw==}
     peerDependencies:
       '@types/react': '*'
@@ -2056,11 +2056,11 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.23.2
-      '@types/react': 18.2.79
+      '@types/react': 18.3.0
       react: 18.3.0
     dev: true
 
-  /@radix-ui/react-slot@1.0.2(@types/react@18.2.79)(react@18.3.0):
+  /@radix-ui/react-slot@1.0.2(@types/react@18.3.0)(react@18.3.0):
     resolution: {integrity: sha512-YeTpuq4deV+6DusvVUW4ivBgnkHwECUu0BiN43L5UCDFgdhsRUWAghhTF5MbvNTPzmiFOx90asDSUjWuCNapwg==}
     peerDependencies:
       '@types/react': '*'
@@ -2070,8 +2070,8 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.23.2
-      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.79)(react@18.3.0)
-      '@types/react': 18.2.79
+      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.3.0)(react@18.3.0)
+      '@types/react': 18.3.0
       react: 18.3.0
     dev: true
 
@@ -2216,10 +2216,10 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/addon-controls@8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0):
+  /@storybook/addon-controls@8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0):
     resolution: {integrity: sha512-wWdmd62UP/sfPm8M7aJjEA+kEXTUIR/QsYi9PoYBhBZcXiikZ4kNan7oD7GfsnzGGKHrBVfwQhO+TqaENGYytA==}
     dependencies:
-      '@storybook/blocks': 8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0)
+      '@storybook/blocks': 8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0)
       lodash: 4.17.21
       ts-dedent: 2.2.0
     transitivePeerDependencies:
@@ -2234,10 +2234,10 @@ packages:
     resolution: {integrity: sha512-x7hX7UuzJtClu6XwU3SfpyFhuckVcgqgD6BU6Ihxl0zs+i4xp6iKVXYSnHFMRM1sgoeT8TjPxab35Ke8w8BVRw==}
     dependencies:
       '@babel/core': 7.24.0
-      '@mdx-js/react': 3.0.1(@types/react@18.2.79)(react@18.3.0)
-      '@storybook/blocks': 8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0)
+      '@mdx-js/react': 3.0.1(@types/react@18.3.0)(react@18.3.0)
+      '@storybook/blocks': 8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0)
       '@storybook/client-logger': 8.0.9
-      '@storybook/components': 8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0)
+      '@storybook/components': 8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0)
       '@storybook/csf-plugin': 8.0.9
       '@storybook/csf-tools': 8.0.9
       '@storybook/global': 5.0.0
@@ -2246,7 +2246,7 @@ packages:
       '@storybook/react-dom-shim': 8.0.9(react-dom@18.3.0)(react@18.3.0)
       '@storybook/theming': 8.0.9(react-dom@18.3.0)(react@18.3.0)
       '@storybook/types': 8.0.9
-      '@types/react': 18.2.79
+      '@types/react': 18.3.0
       fs-extra: 11.1.1
       react: 18.3.0
       react-dom: 18.3.0(react@18.3.0)
@@ -2258,12 +2258,12 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/addon-essentials@8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0):
+  /@storybook/addon-essentials@8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0):
     resolution: {integrity: sha512-mwAgdfrOsTuTDcagvM7veBh+iayZIWmKOazzkhrIWbhYcrXOsweigD2UOVeHgAiAzJK49znr4FXTCKcE1hOWcw==}
     dependencies:
       '@storybook/addon-actions': 8.0.9
       '@storybook/addon-backgrounds': 8.0.9
-      '@storybook/addon-controls': 8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0)
+      '@storybook/addon-controls': 8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0)
       '@storybook/addon-docs': 8.0.9
       '@storybook/addon-highlight': 8.0.9
       '@storybook/addon-measure': 8.0.9
@@ -2348,7 +2348,7 @@ packages:
       memoizerific: 1.11.3
     dev: true
 
-  /@storybook/blocks@8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0):
+  /@storybook/blocks@8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0):
     resolution: {integrity: sha512-F2zSrfSwzTFN7qW3zB80tG+EXtmfmCDC6Ird0F7tolszb6tOqJcAcBOwQbE2O0wI63sLu21qxzXgaKBMkiWvJg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -2361,7 +2361,7 @@ packages:
     dependencies:
       '@storybook/channels': 8.0.9
       '@storybook/client-logger': 8.0.9
-      '@storybook/components': 8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0)
+      '@storybook/components': 8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0)
       '@storybook/core-events': 8.0.9
       '@storybook/csf': 0.1.4
       '@storybook/docs-tools': 8.0.9
@@ -2540,13 +2540,13 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/components@8.0.9(@types/react@18.2.79)(react-dom@18.3.0)(react@18.3.0):
+  /@storybook/components@8.0.9(@types/react@18.3.0)(react-dom@18.3.0)(react@18.3.0):
     resolution: {integrity: sha512-JcwBGADzIJs0PSzqykrrD2KHzNG9wtexUOKuidt+FSv9szpUhe3qBAXIHpdfBRl7mOJ9TRZ5rt+mukEnfncdzA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@radix-ui/react-slot': 1.0.2(@types/react@18.2.79)(react@18.3.0)
+      '@radix-ui/react-slot': 1.0.2(@types/react@18.3.0)(react@18.3.0)
       '@storybook/client-logger': 8.0.9
       '@storybook/csf': 0.1.4
       '@storybook/global': 5.0.0
@@ -3025,7 +3025,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.2
       '@testing-library/dom': 10.0.0
-      '@types/react-dom': 18.2.25
+      '@types/react-dom': 18.3.0
       react: 18.3.0
       react-dom: 18.3.0(react@18.3.0)
     dev: true
@@ -3227,14 +3227,14 @@ packages:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
     dev: true
 
-  /@types/react-dom@18.2.25:
-    resolution: {integrity: sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==}
+  /@types/react-dom@18.3.0:
+    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
-      '@types/react': 18.2.79
+      '@types/react': 18.3.0
     dev: true
 
-  /@types/react@18.2.79:
-    resolution: {integrity: sha512-RwGAGXPl9kSXwdNTafkOEuFrTBD5SA2B3iEB96xi8+xu5ddUa/cpvyVCSNn+asgLCTHkb5ZxN8gbuibYJi4s1w==}
+  /@types/react@18.3.0:
+    resolution: {integrity: sha512-DiUcKjzE6soLyln8NNZmyhcQjVv+WsUIFSqetMN0p8927OztKT4VTfFTqsbAi5oAGIcgOmOajlfBqyptDDjZRw==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.1
