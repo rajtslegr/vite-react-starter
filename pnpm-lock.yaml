@@ -111,7 +111,7 @@ devDependencies:
     version: 0.8.0(eslint@8.57.0)(typescript@5.4.5)
   eslint-plugin-tailwindcss:
     specifier: 3.17.1
-    version: 3.17.1(tailwindcss@3.4.3)
+    version: 3.17.1(tailwindcss@3.4.4)
   eslint-plugin-testing-library:
     specifier: 6.2.2
     version: 6.2.2(eslint@8.57.0)(typescript@5.4.5)
@@ -137,8 +137,8 @@ devDependencies:
     specifier: 8.1.5
     version: 8.1.5(react-dom@18.3.1)(react@18.3.1)
   tailwindcss:
-    specifier: 3.4.3
-    version: 3.4.3
+    specifier: 3.4.4
+    version: 3.4.4
   typescript:
     specifier: 5.4.5
     version: 5.4.5
@@ -5545,7 +5545,7 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-tailwindcss@3.17.1(tailwindcss@3.4.3):
+  /eslint-plugin-tailwindcss@3.17.1(tailwindcss@3.4.4):
     resolution: {integrity: sha512-uHgM2bp2lIDEsW0thwbELfHRkPBRrtz7LrNg8DQ7EngYBBtZ9StJv2HVOKY7B+3zDE8N5G6ygynfJ/sxA6Vk1A==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -5553,7 +5553,7 @@ packages:
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.38
-      tailwindcss: 3.4.3
+      tailwindcss: 3.4.4
     dev: true
 
   /eslint-plugin-testing-library@6.2.2(eslint@8.57.0)(typescript@5.4.5):
@@ -7281,14 +7281,6 @@ packages:
   /methods@1.1.2:
     resolution: {integrity: sha512-iclAHeNqNm68zFtnZ0e+1L2yUIdvzNoauKU4WBA3VvH/vPFieF7qfRlwUZU+DA9P9bPXIS90ulxoUoCH23sV2w==}
     engines: {node: '>= 0.6'}
-    dev: true
-
-  /micromatch@4.0.5:
-    resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==}
-    engines: {node: '>=8.6'}
-    dependencies:
-      braces: 3.0.3
-      picomatch: 2.3.1
     dev: true
 
   /micromatch@4.0.7:
@@ -9143,8 +9135,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /tailwindcss@3.4.3:
-    resolution: {integrity: sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==}
+  /tailwindcss@3.4.4:
+    resolution: {integrity: sha512-ZoyXOdJjISB7/BcLTR6SEsLgKtDStYyYZVLsUtWChO4Ps20CBad7lfJKVDiejocV4ME1hLmyY0WJE3hSDcmQ2A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -9158,7 +9150,7 @@ packages:
       is-glob: 4.0.3
       jiti: 1.21.0
       lilconfig: 2.1.0
-      micromatch: 4.0.5
+      micromatch: 4.0.7
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
