@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import Button from '@components/Button';
 
-const App: React.FC = () => {
+const App = () => {
   const [count, setCount] = useState(0);
 
   return (
