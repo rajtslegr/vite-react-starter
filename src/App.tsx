@@ -1,9 +1,8 @@
-import { useState } from 'react';
-
 import Button from '@components/Button';
+import useCountStore from '@store/useCountStore';
 
 const App = () => {
-  const [count, setCount] = useState(0);
+  const { count, increment, decrement, reset } = useCountStore();
 
   return (
     <div className="flex min-h-screen flex-col place-items-center justify-center bg-[#242424] p-2 text-center font-inter text-base font-normal leading-6 text-gray-50">
@@ -25,15 +24,15 @@ const App = () => {
       </div>
       <h1 className="text-5xl">Vite + React</h1>
       <div className="space-y-2 p-8">
-        <Button onClick={() => setCount((previousCount) => previousCount + 1)}>
-          count is {count}
-        </Button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <p className="text-2xl">Count: {count}</p>
+        <div className="flex space-x-2">
+          <Button onClick={decrement}>Decrement</Button>
+          <Button onClick={increment}>Increment</Button>
+          <Button onClick={reset}>Reset</Button>
+        </div>
       </div>
       <p className="text-[#888]">
-        Click on the Vite and React logos to learn more
+        Edit <code>src/App.tsx</code> and save to test HMR
       </p>
     </div>
   );
