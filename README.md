@@ -9,6 +9,7 @@ Opinionated Vite template.
 - TypeScript
 - Zustand
 - React Query
+- Tanstack Router
 - Tailwind CSS
 - ESLint and Prettier
 - Husky and lint-staged

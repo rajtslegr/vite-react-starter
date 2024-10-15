@@ -29,7 +29,6 @@ const Posts = () => {
 
   return (
     <div className="mx-auto max-w-3xl">
-      <h2 className="mb-4 text-2xl font-bold">Posts - React Query</h2>
       <ul className="space-y-4">
         {data?.map((post) => (
           <li key={post.id} className="rounded-lg border p-4">
