@@ -3,11 +3,17 @@ module.exports = {
     'airbnb-base',
     'plugin:prettier/recommended',
     'plugin:storybook/recommended',
+    'plugin:react-hooks/recommended',
   ],
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
-      plugins: ['@typescript-eslint', 'tailwindcss', 'unused-imports'],
+      plugins: [
+        '@typescript-eslint',
+        'tailwindcss',
+        'unused-imports',
+        'react-hooks',
+      ],
       extends: [
         'airbnb-typescript',
         'plugin:prettier/recommended',
