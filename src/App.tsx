@@ -1,4 +1,5 @@
 import Button from '@components/Button';
+import Posts from '@components/Posts';
 import useCountStore from '@store/useCountStore';
 
 const App = () => {
@@ -24,13 +25,14 @@ const App = () => {
       </div>
       <h1 className="text-5xl">Vite + React</h1>
       <div className="space-y-2 p-8">
-        <p className="text-2xl">Count: {count}</p>
+        <p className="text-2xl">Count: {count} - Zustand</p>
         <div className="flex space-x-2">
           <Button onClick={decrement}>Decrement</Button>
           <Button onClick={increment}>Increment</Button>
           <Button onClick={reset}>Reset</Button>
         </div>
       </div>
+      <Posts />
       <p className="text-[#888]">
         Edit <code>src/App.tsx</code> and save to test HMR
       </p>

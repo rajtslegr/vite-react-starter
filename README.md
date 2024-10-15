@@ -8,6 +8,7 @@ Opinionated Vite template.
 - React
 - TypeScript
 - Zustand
+- React Query
 - Tailwind CSS
 - ESLint and Prettier
 - Husky and lint-staged
