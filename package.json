@@ -28,7 +28,7 @@
     "zustand": "5.0.0"
   },
   "devDependencies": {
-    "@playwright/test": "1.48.1",
+    "@playwright/test": "1.48.2",
     "@storybook/addon-essentials": "8.3.6",
     "@storybook/addon-interactions": "8.3.6",
     "@storybook/addon-links": "8.3.6",
