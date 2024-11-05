@@ -12,8 +12,8 @@ importers:
         specifier: 5.59.19
         version: 5.59.19(react@18.3.1)
       '@tanstack/react-router':
-        specifier: 1.78.3
-        version: 1.78.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 1.79.0
+        version: 1.79.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -806,11 +806,11 @@ packages:
     peerDependencies:
       react: ^18 || ^19
 
-  '@tanstack/react-router@1.78.3':
-    resolution: {integrity: sha512-e4Mws3QTLDs++EyP3HwYKz+yZP3LyO5LonqEXngHYM8UjF2lvn6BnNR4vCmFNZfMFXpafR7jHSh7VOdBwnCngA==}
+  '@tanstack/react-router@1.79.0':
+    resolution: {integrity: sha512-v+0+Y3mCsd6waphnG0dloU9cDtSbB5k/LwbkhqXd2uGhwZyI1/nvvOcSOnuTB8CDEvC6WFNBt+fKOPVqNZ3ezw==}
     engines: {node: '>=12'}
     peerDependencies:
-      '@tanstack/router-generator': 1.78.3
+      '@tanstack/router-generator': 1.79.0
       react: '>=18'
       react-dom: '>=18'
     peerDependenciesMeta:
@@ -3902,7 +3902,7 @@ snapshots:
       '@tanstack/query-core': 5.59.17
       react: 18.3.1
 
-  '@tanstack/react-router@1.78.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@tanstack/react-router@1.79.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@tanstack/history': 1.61.1
       '@tanstack/react-store': 0.5.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
