@@ -12,8 +12,8 @@ importers:
         specifier: 5.59.20
         version: 5.59.20(react@18.3.1)
       '@tanstack/react-router':
-        specifier: 1.81.2
-        version: 1.81.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 1.81.4
+        version: 1.81.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -794,8 +794,8 @@ packages:
     peerDependencies:
       storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
 
-  '@tanstack/history@1.61.1':
-    resolution: {integrity: sha512-2CqERleeqO3hkhJmyJm37tiL3LYgeOpmo8szqdjgtnnG0z7ZpvzkZz6HkfOr9Ca/ha7mhAiouSvLYuLkM37AMg==}
+  '@tanstack/history@1.81.3':
+    resolution: {integrity: sha512-ZNdhkE+Ikv2GPj29m99Bu4qkiH1LeZQkSVjRUbTmNRdvEJmKKrKq1B5p5t1IHlfhoStLu5JIcWeEHHZ88jEfdQ==}
     engines: {node: '>=12'}
 
   '@tanstack/query-core@5.59.20':
@@ -806,8 +806,8 @@ packages:
     peerDependencies:
       react: ^18 || ^19
 
-  '@tanstack/react-router@1.81.2':
-    resolution: {integrity: sha512-N354GhuYz3UAeAR9rASJfhxXYd0XVT//ZEdGOma19O5izSiNIbzOMSWqZOAo8fZ6OVZ0OVsq23kXlVrmvJ8BDQ==}
+  '@tanstack/react-router@1.81.4':
+    resolution: {integrity: sha512-VSNqg6ijib3raLRR5Q95sRV0P0TNZwzgHrCvb5pIZ2+0mMXPo9eyW9D8415gf08EdP7bgQmnvj553Mu+JSfgtg==}
     engines: {node: '>=12'}
     peerDependencies:
       '@tanstack/router-generator': 1.79.0
@@ -3901,7 +3901,7 @@ snapshots:
     dependencies:
       storybook: 8.4.2(prettier@3.3.3)
 
-  '@tanstack/history@1.61.1': {}
+  '@tanstack/history@1.81.3': {}
 
   '@tanstack/query-core@5.59.20': {}
 
@@ -3910,9 +3910,9 @@ snapshots:
       '@tanstack/query-core': 5.59.20
       react: 18.3.1
 
-  '@tanstack/react-router@1.81.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@tanstack/react-router@1.81.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@tanstack/history': 1.61.1
+      '@tanstack/history': 1.81.3
       '@tanstack/react-store': 0.5.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       jsesc: 3.0.2
       react: 18.3.1
