@@ -12,8 +12,8 @@ importers:
         specifier: 5.60.2
         version: 5.60.2(react@18.3.1)
       '@tanstack/react-router':
-        specifier: 1.81.7
-        version: 1.81.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 1.81.9
+        version: 1.81.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -794,8 +794,8 @@ packages:
     peerDependencies:
       storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
 
-  '@tanstack/history@1.81.6':
-    resolution: {integrity: sha512-ZbqZszXEU5dyNCjpo9hvXeJKUS+n4wlgpym+b2fIPSwV3yVLC3M34MVK5fmmUcrRFKpBT9vgInMNoL2OZ5U3XQ==}
+  '@tanstack/history@1.81.9':
+    resolution: {integrity: sha512-9MPknhhnvZKifK4jSvva6NDqYQwsNaptrRzO4ejk6yCLyi4koVG4u3C4VCeClYZY5etLEQbO8wXU9knEFZpMeg==}
     engines: {node: '>=12'}
 
   '@tanstack/query-core@5.59.20':
@@ -806,11 +806,11 @@ packages:
     peerDependencies:
       react: ^18 || ^19
 
-  '@tanstack/react-router@1.81.7':
-    resolution: {integrity: sha512-CRf8xO62xyz98U+pOl1+F6e3cwGbYfrDD61r7osXOW4Y8QCpgPbtmtpzA9gL/MYERGT5dXupdMufqycm6N5Glw==}
+  '@tanstack/react-router@1.81.9':
+    resolution: {integrity: sha512-vQV9ZL6ik+OR8sLrkeuDvgB3gDxVd6nDX+PJ/LHMrpUDTFvnXh+rsjisiL9O1EKlVKaGQ/gq0nUSHreFLuatgQ==}
     engines: {node: '>=12'}
     peerDependencies:
-      '@tanstack/router-generator': 1.81.6
+      '@tanstack/router-generator': 1.81.9
       react: '>=18'
       react-dom: '>=18'
     peerDependenciesMeta:
@@ -3895,7 +3895,7 @@ snapshots:
     dependencies:
       storybook: 8.4.4(prettier@3.3.3)
 
-  '@tanstack/history@1.81.6': {}
+  '@tanstack/history@1.81.9': {}
 
   '@tanstack/query-core@5.59.20': {}
 
@@ -3904,9 +3904,9 @@ snapshots:
       '@tanstack/query-core': 5.59.20
       react: 18.3.1
 
-  '@tanstack/react-router@1.81.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@tanstack/react-router@1.81.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@tanstack/history': 1.81.6
+      '@tanstack/history': 1.81.9
       '@tanstack/react-store': 0.5.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       jsesc: 3.0.2
       react: 18.3.1
