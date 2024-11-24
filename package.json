@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@tanstack/react-query": "5.61.3",
-    "@tanstack/react-router": "1.82.2",
+    "@tanstack/react-router": "1.82.8",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "zustand": "5.0.1"
