@@ -22,14 +22,14 @@ importers:
         version: 18.3.1(react@18.3.1)
       zustand:
         specifier: 5.0.2
-        version: 5.0.2(@types/react@18.3.13)(react@18.3.1)(use-sync-external-store@1.2.2(react@18.3.1))
+        version: 5.0.2(@types/react@18.3.14)(react@18.3.1)(use-sync-external-store@1.2.2(react@18.3.1))
     devDependencies:
       '@playwright/test':
         specifier: 1.49.0
         version: 1.49.0
       '@storybook/addon-essentials':
         specifier: 8.4.6
-        version: 8.4.6(@types/react@18.3.13)(storybook@8.4.6(prettier@3.4.2))
+        version: 8.4.6(@types/react@18.3.14)(storybook@8.4.6(prettier@3.4.2))
       '@storybook/addon-interactions':
         specifier: 8.4.6
         version: 8.4.6(storybook@8.4.6(prettier@3.4.2))
@@ -59,16 +59,16 @@ importers:
         version: 6.6.3
       '@testing-library/react':
         specifier: 16.0.1
-        version: 16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.2)(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@testing-library/user-event':
         specifier: 14.5.2
         version: 14.5.2(@testing-library/dom@10.4.0)
       '@types/react':
-        specifier: 18.3.13
-        version: 18.3.13
+        specifier: 18.3.14
+        version: 18.3.14
       '@types/react-dom':
-        specifier: 18.3.1
-        version: 18.3.1
+        specifier: 18.3.2
+        version: 18.3.2
       '@typescript-eslint/eslint-plugin':
         specifier: 7.18.0
         version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2)
@@ -115,8 +115,8 @@ importers:
         specifier: 7.37.2
         version: 7.37.2(eslint@8.57.1)
       eslint-plugin-react-hooks:
-        specifier: 5.0.0
-        version: 5.0.0(eslint@8.57.1)
+        specifier: 5.1.0
+        version: 5.1.0(eslint@8.57.1)
       eslint-plugin-storybook:
         specifier: 0.11.1
         version: 0.11.1(eslint@8.57.1)(typescript@5.7.2)
@@ -1059,11 +1059,11 @@ packages:
   '@types/prop-types@15.7.5':
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  '@types/react-dom@18.3.1':
-    resolution: {integrity: sha512-qW1Mfv8taImTthu4KoXgDfLuk4bydU6Q/TkADnDWWHwi4NX4BR+LWfTp2sVmTqRrsHvyDDTelgelxJ+SsejKKQ==}
+  '@types/react-dom@18.3.2':
+    resolution: {integrity: sha512-Fqp+rcvem9wEnGr3RY8dYNvSQ8PoLqjZ9HLgaPUOjJJD120uDyOxOjc/39M4Kddp9JQCxpGQbnhVQF0C0ncYVg==}
 
-  '@types/react@18.3.13':
-    resolution: {integrity: sha512-ii/gswMmOievxAJed4PAHT949bpYjPKXvXo1v6cRB/kqc2ZR4n+SgyCyvyc5Fec5ez8VnUumI1Vk7j6fRyRogg==}
+  '@types/react@18.3.14':
+    resolution: {integrity: sha512-NzahNKvjNhVjuPBQ+2G7WlxstQ+47kXZNHlUvFakDViuIEfGY926GqhMueQFZ7woG+sPiQKlF36XfrIUVSUfFg==}
 
   '@types/resolve@1.20.6':
     resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
@@ -1827,8 +1827,8 @@ packages:
       eslint-config-prettier:
         optional: true
 
-  eslint-plugin-react-hooks@5.0.0:
-    resolution: {integrity: sha512-hIOwI+5hYGpJEc4uPRmz2ulCjAGD/N13Lukkh8cLV0i2IRk/bdZDYjgLVHj+U9Z704kLIdIO6iueGvxNur0sgw==}
+  eslint-plugin-react-hooks@5.1.0:
+    resolution: {integrity: sha512-mpJRtPgHN2tNAvZ35AMfqeB3Xqeo273QxrHJsbBEPWODRM4r0yB6jfoROqKEYrOn27UtRPpcpHc2UqyBSuUNTw==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -3838,10 +3838,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mdx-js/react@3.0.1(@types/react@18.3.13)(react@18.3.1)':
+  '@mdx-js/react@3.0.1(@types/react@18.3.14)(react@18.3.1)':
     dependencies:
       '@types/mdx': 2.0.10
-      '@types/react': 18.3.13
+      '@types/react': 18.3.14
       react: 18.3.1
 
   '@nodelib/fs.scandir@2.1.5':
@@ -3954,9 +3954,9 @@ snapshots:
       storybook: 8.4.6(prettier@3.4.2)
       ts-dedent: 2.2.0
 
-  '@storybook/addon-docs@8.4.6(@types/react@18.3.13)(storybook@8.4.6(prettier@3.4.2))':
+  '@storybook/addon-docs@8.4.6(@types/react@18.3.14)(storybook@8.4.6(prettier@3.4.2))':
     dependencies:
-      '@mdx-js/react': 3.0.1(@types/react@18.3.13)(react@18.3.1)
+      '@mdx-js/react': 3.0.1(@types/react@18.3.14)(react@18.3.1)
       '@storybook/blocks': 8.4.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.6(prettier@3.4.2))
       '@storybook/csf-plugin': 8.4.6(storybook@8.4.6(prettier@3.4.2))
       '@storybook/react-dom-shim': 8.4.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.6(prettier@3.4.2))
@@ -3967,12 +3967,12 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@storybook/addon-essentials@8.4.6(@types/react@18.3.13)(storybook@8.4.6(prettier@3.4.2))':
+  '@storybook/addon-essentials@8.4.6(@types/react@18.3.14)(storybook@8.4.6(prettier@3.4.2))':
     dependencies:
       '@storybook/addon-actions': 8.4.6(storybook@8.4.6(prettier@3.4.2))
       '@storybook/addon-backgrounds': 8.4.6(storybook@8.4.6(prettier@3.4.2))
       '@storybook/addon-controls': 8.4.6(storybook@8.4.6(prettier@3.4.2))
-      '@storybook/addon-docs': 8.4.6(@types/react@18.3.13)(storybook@8.4.6(prettier@3.4.2))
+      '@storybook/addon-docs': 8.4.6(@types/react@18.3.14)(storybook@8.4.6(prettier@3.4.2))
       '@storybook/addon-highlight': 8.4.6(storybook@8.4.6(prettier@3.4.2))
       '@storybook/addon-measure': 8.4.6(storybook@8.4.6(prettier@3.4.2))
       '@storybook/addon-outline': 8.4.6(storybook@8.4.6(prettier@3.4.2))
@@ -4240,15 +4240,15 @@ snapshots:
       lodash: 4.17.21
       redent: 3.0.0
 
-  '@testing-library/react@16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@testing-library/react@16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.2)(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.23.2
       '@testing-library/dom': 10.4.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.13
-      '@types/react-dom': 18.3.1
+      '@types/react': 18.3.14
+      '@types/react-dom': 18.3.2
 
   '@testing-library/user-event@14.5.2(@testing-library/dom@10.4.0)':
     dependencies:
@@ -4296,11 +4296,11 @@ snapshots:
 
   '@types/prop-types@15.7.5': {}
 
-  '@types/react-dom@18.3.1':
+  '@types/react-dom@18.3.2':
     dependencies:
-      '@types/react': 18.3.13
+      '@types/react': 18.3.14
 
-  '@types/react@18.3.13':
+  '@types/react@18.3.14':
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.1
@@ -5281,7 +5281,7 @@ snapshots:
     optionalDependencies:
       eslint-config-prettier: 9.1.0(eslint@8.57.1)
 
-  eslint-plugin-react-hooks@5.0.0(eslint@8.57.1):
+  eslint-plugin-react-hooks@5.1.0(eslint@8.57.1):
     dependencies:
       eslint: 8.57.1
 
@@ -6994,8 +6994,8 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zustand@5.0.2(@types/react@18.3.13)(react@18.3.1)(use-sync-external-store@1.2.2(react@18.3.1)):
+  zustand@5.0.2(@types/react@18.3.14)(react@18.3.1)(use-sync-external-store@1.2.2(react@18.3.1)):
     optionalDependencies:
-      '@types/react': 18.3.13
+      '@types/react': 18.3.14
       react: 18.3.1
       use-sync-external-store: 1.2.2(react@18.3.1)
