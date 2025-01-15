@@ -12,8 +12,8 @@ importers:
         specifier: 5.64.1
         version: 5.64.1(react@19.0.0)
       '@tanstack/react-router':
-        specifier: 1.95.6
-        version: 1.95.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: 1.97.0
+        version: 1.97.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
         specifier: 19.0.0
         version: 19.0.0
@@ -1138,8 +1138,8 @@ packages:
     peerDependencies:
       storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
 
-  '@tanstack/history@1.95.2':
-    resolution: {integrity: sha512-FgUauZLg+nRybH5dKyAYokmXs064rHc0qpMizKxTegSTMHj/z2B6T7pjEG2Zd6dBegeYNVL97ROg7Srr9cuBug==}
+  '@tanstack/history@1.97.0':
+    resolution: {integrity: sha512-xFdpGJqwSLUJW5TYRNjRO5T41KjGkJeHWyhANZsNJ1KDm7uCVNkfLxNXeCI1XhIFbpzJmk13vo/mY0WJDe0A5g==}
     engines: {node: '>=12'}
 
   '@tanstack/query-core@5.64.1':
@@ -1150,8 +1150,8 @@ packages:
     peerDependencies:
       react: ^18 || ^19
 
-  '@tanstack/react-router@1.95.6':
-    resolution: {integrity: sha512-tajvEcMP/EyTUDee/56+TapM8Fruv8V5JqJbNlrdR1J4QESCf2dFThN+yzX9w11lhnc66ikiqnKccCP9/hfejQ==}
+  '@tanstack/react-router@1.97.0':
+    resolution: {integrity: sha512-0AJbgh3sfZDJCzhHpNzYomH8/BIwz6PQNrwKc9MPrVax23NdFP8pDvxPC6L4AVMDUBetcvnrrzpHgXJTSCj/fA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18'
@@ -4696,7 +4696,7 @@ snapshots:
     dependencies:
       storybook: 8.4.7(prettier@3.4.2)
 
-  '@tanstack/history@1.95.2': {}
+  '@tanstack/history@1.97.0': {}
 
   '@tanstack/query-core@5.64.1': {}
 
@@ -4705,9 +4705,9 @@ snapshots:
       '@tanstack/query-core': 5.64.1
       react: 19.0.0
 
-  '@tanstack/react-router@1.95.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@tanstack/react-router@1.97.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      '@tanstack/history': 1.95.2
+      '@tanstack/history': 1.97.0
       '@tanstack/react-store': 0.7.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       jsesc: 3.0.2
       react: 19.0.0
