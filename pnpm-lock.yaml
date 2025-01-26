@@ -12,8 +12,8 @@ importers:
         specifier: 5.64.2
         version: 5.64.2(react@19.0.0)
       '@tanstack/react-router':
-        specifier: 1.97.21
-        version: 1.97.21(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: 1.97.23
+        version: 1.97.23(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
         specifier: 19.0.0
         version: 19.0.0
@@ -876,8 +876,8 @@ packages:
     peerDependencies:
       react: ^18 || ^19
 
-  '@tanstack/react-router@1.97.21':
-    resolution: {integrity: sha512-0FuSExQL6IlnM4p1zweEb0US1LjTiLsU1uai7DrU3PkwaFhDXh1R7/MGUoYUZ9no6lXQlTKjB63hIVdi/Sfkpw==}
+  '@tanstack/react-router@1.97.23':
+    resolution: {integrity: sha512-5SuJlGZfzadY0iIJa6TbXQexIvVRL6VbSo8rxzxPDBSQPXZAbgJRKAmcGUwRcLoOzDJGZa+eWi1FR9YuKNtTNA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18.0.0 || >=19.0.0'
@@ -2389,11 +2389,6 @@ packages:
       canvas:
         optional: true
 
-  jsesc@3.0.2:
-    resolution: {integrity: sha512-xKqzzWXDttJuOcawBt4KnKHHIf5oQ/Cxax+0PWFG+DFDgHNAdi+TXECADI+RYiFUMmx8792xsMbbgXj4CwnP4g==}
-    engines: {node: '>=6'}
-    hasBin: true
-
   jsesc@3.1.0:
     resolution: {integrity: sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==}
     engines: {node: '>=6'}
@@ -3638,7 +3633,7 @@ snapshots:
       '@babel/types': 7.26.0
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
-      jsesc: 3.0.2
+      jsesc: 3.1.0
 
   '@babel/helper-compilation-targets@7.25.9':
     dependencies:
@@ -4273,7 +4268,7 @@ snapshots:
       '@tanstack/query-core': 5.64.2
       react: 19.0.0
 
-  '@tanstack/react-router@1.97.21(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@tanstack/react-router@1.97.23(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@tanstack/history': 1.97.8
       '@tanstack/react-store': 0.7.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -6146,8 +6141,6 @@ snapshots:
       - bufferutil
       - supports-color
       - utf-8-validate
-
-  jsesc@3.0.2: {}
 
   jsesc@3.1.0: {}
 
