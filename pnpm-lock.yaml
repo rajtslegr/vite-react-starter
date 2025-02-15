@@ -118,8 +118,8 @@ importers:
         specifier: 5.1.0
         version: 5.1.0(eslint@8.57.1)
       eslint-plugin-storybook:
-        specifier: 0.11.2
-        version: 0.11.2(eslint@8.57.1)(typescript@5.7.3)
+        specifier: 0.11.3
+        version: 0.11.3(eslint@8.57.1)(typescript@5.7.3)
       eslint-plugin-tailwindcss:
         specifier: 3.18.0
         version: 3.18.0(tailwindcss@3.4.17)
@@ -788,9 +788,6 @@ packages:
     resolution: {integrity: sha512-60JBEVsW8x7u4hc+NmrCE0ij36QnaitqTDsxaT8BhbDrqFUvxwUjeaEmoyMn/UCJh080fQfKc2+dqBkFfbkAww==}
     peerDependencies:
       storybook: ^8.5.6
-
-  '@storybook/csf@0.1.11':
-    resolution: {integrity: sha512-dHYFQH3mA+EtnCkHXzicbLgsvzYjcDJ1JWsogbItZogkPHgSJM/Wr71uMkcvw8v9mmCyP4NpXJuu6bPoVsOnzg==}
 
   '@storybook/csf@0.1.12':
     resolution: {integrity: sha512-9/exVhabisyIVL0VxTCxo01Tdm8wefIXKXfltAPTSr8cbLn5JAxGQ6QV3mjdecLGEOucfoVhAKtJfVHxEK1iqw==}
@@ -1789,11 +1786,12 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
 
-  eslint-plugin-storybook@0.11.2:
-    resolution: {integrity: sha512-0Z4DUklJrC+GHjCRXa7PYfPzWC15DaVnwaOYenpgXiCEijXPZkLKCms+rHhtoRcWccP7Z8DpOOaP1gc3P9oOwg==}
+  eslint-plugin-storybook@0.11.3:
+    resolution: {integrity: sha512-gDBnBZiyk4ZG7OMSJRaHBcuJ8TMCXgMIQ3HB/XvtN0SvSio2ZOIeYD3yGj39g/DbyCe/Bg02j/ip9tWlDEs82A==}
     engines: {node: '>= 18'}
     peerDependencies:
       eslint: '>=8'
+      typescript: '>=4.8.4 <5.8.0'
 
   eslint-plugin-tailwindcss@3.18.0:
     resolution: {integrity: sha512-PQDU4ZMzFH0eb2DrfHPpbgo87Zgg2EXSMOj1NSfzdZm+aJzpuwGerfowMIaVehSREEa0idbf/eoNYAOHSJoDAQ==}
@@ -4138,10 +4136,6 @@ snapshots:
       storybook: 8.5.6(prettier@3.5.1)
       unplugin: 1.5.1
 
-  '@storybook/csf@0.1.11':
-    dependencies:
-      type-fest: 2.19.0
-
   '@storybook/csf@0.1.12':
     dependencies:
       type-fest: 2.19.0
@@ -5443,15 +5437,15 @@ snapshots:
       string.prototype.matchall: 4.0.12
       string.prototype.repeat: 1.0.0
 
-  eslint-plugin-storybook@0.11.2(eslint@8.57.1)(typescript@5.7.3):
+  eslint-plugin-storybook@0.11.3(eslint@8.57.1)(typescript@5.7.3):
     dependencies:
-      '@storybook/csf': 0.1.11
+      '@storybook/csf': 0.1.12
       '@typescript-eslint/utils': 8.15.0(eslint@8.57.1)(typescript@5.7.3)
       eslint: 8.57.1
       ts-dedent: 2.2.0
+      typescript: 5.7.3
     transitivePeerDependencies:
       - supports-color
-      - typescript
 
   eslint-plugin-tailwindcss@3.18.0(tailwindcss@3.4.17):
     dependencies:
