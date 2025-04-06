@@ -1,4 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
+import { env } from '@utils/env';
 
 interface Post {
   id: number;
@@ -7,9 +8,7 @@ interface Post {
 }
 
 const fetchPosts = async (): Promise<Post[]> => {
-  const response = await fetch(
-    'https://jsonplaceholder.typicode.com/posts?limit=10',
-  );
+  const response = await fetch(`${env.apiUrl}/posts`);
 
   if (!response.ok) {
     throw new Error('Network response was not ok');

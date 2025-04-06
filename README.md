@@ -26,6 +26,27 @@ Install dependencies:
 pnpm install
 ```
 
+## Environment Configuration
+
+This project uses environment variables for configuration. The following files are supported:
+
+- `.env`: Default environment variables for all environments
+- `.env.local`: Local overrides (not committed to git)
+- `.env.development`: Development environment variables
+- `.env.production`: Production environment variables
+
+To get started, copy the example environment file:
+
+```bash
+cp .env.example .env.local
+```
+
+Then edit the `.env.local` file with your specific configuration.
+
+Environment variables must be prefixed with `VITE_` to be accessible in the browser.
+
+## Running the project
+
 Run project:
 
 ```bash

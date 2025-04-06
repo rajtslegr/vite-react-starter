@@ -15,6 +15,12 @@ dist-ssr
 .eslintcache
 coverage
 
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
