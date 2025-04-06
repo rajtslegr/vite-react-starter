@@ -7,16 +7,18 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     '@storybook/addon-onboarding',
     '@storybook/addon-interactions',
+    '@chromatic-com/storybook',
   ],
   framework: {
     name: '@storybook/react-vite',
     options: {},
   },
-  docs: {
-    autodocs: 'tag',
-  },
+  docs: {},
   core: {
     disableTelemetry: true,
+  },
+  typescript: {
+    reactDocgen: 'react-docgen-typescript',
   },
 };
 
