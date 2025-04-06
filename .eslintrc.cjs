@@ -8,18 +8,12 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
-      plugins: [
-        '@typescript-eslint',
-        'tailwindcss',
-        'unused-imports',
-        'react-hooks',
-      ],
+      plugins: ['@typescript-eslint', 'unused-imports', 'react-hooks'],
       extends: [
         'airbnb-typescript',
         'plugin:prettier/recommended',
         'plugin:react-hooks/recommended',
         'plugin:react/recommended',
-        'plugin:tailwindcss/recommended',
       ],
       settings: {
         react: {
@@ -82,13 +76,6 @@ module.exports = {
         'react/prop-types': 'off',
         'react/react-in-jsx-scope': 'off',
         'react/require-default-props': 'off',
-        'tailwindcss/classnames-order': [
-          'error',
-          {
-            officialSorting: true,
-          },
-        ],
-        'tailwindcss/no-custom-classname': 'off',
         'unused-imports/no-unused-imports': 'error',
         'unused-imports/no-unused-vars': [
           'error',

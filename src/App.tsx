@@ -2,21 +2,21 @@ import { Link, Outlet } from '@tanstack/react-router';
 
 const App = () => {
   return (
-    <div className="flex min-h-screen flex-col bg-[#242424] font-inter text-base font-normal leading-6 text-gray-50">
+    <div className="font-inter flex min-h-screen flex-col bg-[#242424] text-base leading-6 font-normal text-gray-50">
       <header className="fixed inset-x-0 top-0 z-10 bg-[#242424] p-4">
         <div className="flex items-center gap-8">
           <div className="flex">
             <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
               <img
                 src="/vite.svg"
-                className="h-12 p-2 hover:drop-shadow-vite"
+                className="hover:drop-shadow-vite h-12 p-2"
                 alt="Vite logo"
               />
             </a>
             <a href="https://reactjs.org" target="_blank" rel="noreferrer">
               <img
                 src="/react.svg"
-                className="h-12 p-2 hover:animate-spin hover:drop-shadow-react motion-reduce:animate-none"
+                className="hover:drop-shadow-react h-12 p-2 hover:animate-spin motion-reduce:animate-none"
                 alt="React logo"
               />
             </a>

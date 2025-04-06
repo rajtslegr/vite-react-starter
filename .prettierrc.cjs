@@ -15,4 +15,6 @@ module.exports = {
   trailingComma: 'all',
   useTabs: false,
   endOfLine: 'auto',
+  plugins: ['prettier-plugin-tailwindcss'],
+  tailwindConfig: './tailwind.config.js',
 };
