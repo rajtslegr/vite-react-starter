@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "4.1.4",
-    "@tanstack/react-query": "5.74.9",
+    "@tanstack/react-query": "5.74.11",
     "@tanstack/react-router": "1.117.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
