@@ -12,8 +12,8 @@ importers:
         specifier: 4.1.5
         version: 4.1.5(vite@6.3.4(@types/node@22.5.4)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.0))
       '@tanstack/react-query':
-        specifier: 5.75.0
-        version: 5.75.0(react@19.1.0)
+        specifier: 5.75.1
+        version: 5.75.1(react@19.1.0)
       '@tanstack/react-router':
         specifier: 1.119.0
         version: 1.119.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -989,8 +989,8 @@ packages:
   '@tanstack/query-core@5.75.0':
     resolution: {integrity: sha512-rk8KQuCdhoRkzjRVF3QxLgAfFUyS0k7+GCQjlGEpEGco+qazJ0eMH6aO1DjDjibH7/ik383nnztua3BG+lOnwg==}
 
-  '@tanstack/react-query@5.75.0':
-    resolution: {integrity: sha512-H+TNgxmTbzH8qQ5MT5xsZEhQ8BG1tUYduDSfeAOzroVZgd/AEjg1rRYSP/9Tl9/hPobZ7iZzV401n77kStrbKw==}
+  '@tanstack/react-query@5.75.1':
+    resolution: {integrity: sha512-tN+gG+eXCHYm+VpmdXUP1rfE9LUrRzgYozTkBZtJV1/WFM3vwWNKQC8G6b2RKcs+2cPg+hdToZHZfjL3bF4yIQ==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -4490,7 +4490,7 @@ snapshots:
 
   '@tanstack/query-core@5.75.0': {}
 
-  '@tanstack/react-query@5.75.0(react@19.1.0)':
+  '@tanstack/react-query@5.75.1(react@19.1.0)':
     dependencies:
       '@tanstack/query-core': 5.75.0
       react: 19.1.0
