@@ -24,8 +24,8 @@
     "@tailwindcss/vite": "4.1.11",
     "@tanstack/react-query": "5.83.0",
     "@tanstack/react-router": "1.130.2",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
     "tailwindcss": "4.1.11",
     "zustand": "5.0.6"
   },
