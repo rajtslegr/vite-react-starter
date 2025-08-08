@@ -27,7 +27,7 @@
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "tailwindcss": "4.1.11",
-    "zustand": "5.0.6"
+    "zustand": "5.0.7"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "4",
