@@ -21,12 +21,12 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@tailwindcss/vite": "4.1.12",
+    "@tailwindcss/vite": "4.1.13",
     "@tanstack/react-query": "5.87.1",
     "@tanstack/react-router": "1.131.35",
     "react": "19.1.1",
     "react-dom": "19.1.1",
-    "tailwindcss": "4.1.12",
+    "tailwindcss": "4.1.13",
     "zustand": "5.0.8"
   },
   "devDependencies": {
