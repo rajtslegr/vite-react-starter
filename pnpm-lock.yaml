@@ -15,8 +15,8 @@ importers:
         specifier: 5.90.5
         version: 5.90.5(react@19.2.0)
       '@tanstack/react-router':
-        specifier: 1.133.13
-        version: 1.133.13(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 1.133.15
+        version: 1.133.15(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       react:
         specifier: 19.2.0
         version: 19.2.0
@@ -874,8 +874,8 @@ packages:
     peerDependencies:
       react: ^18 || ^19
 
-  '@tanstack/react-router@1.133.13':
-    resolution: {integrity: sha512-mVAj70mPOH/a60Hjlha3gHEWLFuE4kHeKau/AL5Xp6e5GtNk1JTRwN4sJ9QlSyLcClOUUtGfED1FoLj0D2W0Eg==}
+  '@tanstack/react-router@1.133.15':
+    resolution: {integrity: sha512-3gQitqq/5lL//KSv9Ro34Fw7xak2ZQcPbR7x6bu5X4W0v97xTE7+bMbBS5UAg9zXTq0FNyB124GabgyBgeQ0NA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18.0.0 || >=19.0.0'
@@ -887,8 +887,8 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  '@tanstack/router-core@1.133.13':
-    resolution: {integrity: sha512-zZptdlS/wSkqozb07Y3zX5gas2OapJdjEG6/Id0e/twNefVdR4EY2TK/mgvyhHtKIpCxIcnZz/3opypgeQi9bg==}
+  '@tanstack/router-core@1.133.15':
+    resolution: {integrity: sha512-ZWAmoFcgi27Ojv2FH3Dq3D6Vt73LswdTnA1tyHShNWQf7wOMH/VKKB9JxiXJqpLTK4NJqpnUp/x0/3nvmdrIqg==}
     engines: {node: '>=12'}
 
   '@tanstack/store@0.7.0':
@@ -4187,11 +4187,11 @@ snapshots:
       '@tanstack/query-core': 5.90.5
       react: 19.2.0
 
-  '@tanstack/react-router@1.133.13(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@tanstack/react-router@1.133.15(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@tanstack/history': 1.133.3
       '@tanstack/react-store': 0.7.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@tanstack/router-core': 1.133.13
+      '@tanstack/router-core': 1.133.15
       isbot: 5.1.28
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
@@ -4205,7 +4205,7 @@ snapshots:
       react-dom: 19.2.0(react@19.2.0)
       use-sync-external-store: 1.4.0(react@19.2.0)
 
-  '@tanstack/router-core@1.133.13':
+  '@tanstack/router-core@1.133.15':
     dependencies:
       '@tanstack/history': 1.133.3
       '@tanstack/store': 0.7.0
