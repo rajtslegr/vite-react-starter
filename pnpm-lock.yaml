@@ -103,8 +103,8 @@ importers:
         specifier: 6.10.2
         version: 6.10.2(eslint@8.57.1)
       eslint-plugin-playwright:
-        specifier: 2.2.2
-        version: 2.2.2(eslint@8.57.1)
+        specifier: 2.3.0
+        version: 2.3.0(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: 5.5.4
         version: 5.5.4(eslint-config-prettier@10.1.8(eslint@8.57.1))(eslint@8.57.1)(prettier@3.6.2)
@@ -1678,9 +1678,9 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-playwright@2.2.2:
-    resolution: {integrity: sha512-j0jKpndIPOXRRP9uMkwb9l/nSmModOU3452nrFdgFJoEv/435J1onk8+aITzjDW8DfypxgmVaDMdmVIa6F7I0w==}
-    engines: {node: '>=16.6.0'}
+  eslint-plugin-playwright@2.3.0:
+    resolution: {integrity: sha512-7UeUuIb5SZrNkrUGb2F+iwHM97kn33/huajcVtAaQFCSMUYGNFvjzRPil5C0OIppslPfuOV68M/zsisXx+/ZvQ==}
+    engines: {node: '>=16.9.0'}
     peerDependencies:
       eslint: '>=8.40.0'
 
@@ -1946,6 +1946,10 @@ packages:
   globals@13.23.0:
     resolution: {integrity: sha512-XAmF0RjlrjY23MA51q3HltdlGxUpXPvg0GioKiD9X6HD28iMjo2dKC8Vqwm7lne4GNr78+RHTfliktR6ZH09wA==}
     engines: {node: '>=8'}
+
+  globals@16.4.0:
+    resolution: {integrity: sha512-ob/2LcVVaVGCYN+r14cnwnoDPUufjiYgSqRhiFD0Q1iI4Odora5RE8Iv1D24hAz5oMophRGkGz+yuvQmmUMnMw==}
+    engines: {node: '>=18'}
 
   globalthis@1.0.3:
     resolution: {integrity: sha512-sFdI5LyBiNTHjRd7cGPWapiHWMOXKyuBNX/cWJ3NfzrZQVa8GI/8cofCl74AOVqq9W5kNmguTIzJ/1s2gyI9wA==}
@@ -5275,10 +5279,10 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-playwright@2.2.2(eslint@8.57.1):
+  eslint-plugin-playwright@2.3.0(eslint@8.57.1):
     dependencies:
       eslint: 8.57.1
-      globals: 13.23.0
+      globals: 16.4.0
 
   eslint-plugin-prettier@5.5.4(eslint-config-prettier@10.1.8(eslint@8.57.1))(eslint@8.57.1)(prettier@3.6.2):
     dependencies:
@@ -5613,6 +5617,8 @@ snapshots:
   globals@13.23.0:
     dependencies:
       type-fest: 0.20.2
+
+  globals@16.4.0: {}
 
   globalthis@1.0.3:
     dependencies:
