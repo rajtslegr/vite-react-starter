@@ -30,7 +30,7 @@
     "zustand": "5.0.11"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "5.0.0",
+    "@chromatic-com/storybook": "5.0.1",
     "@playwright/test": "1.58.2",
     "@storybook/addon-links": "10.2.7",
     "@storybook/addon-onboarding": "10.2.7",
