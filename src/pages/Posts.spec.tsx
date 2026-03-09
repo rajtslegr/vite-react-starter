@@ -1,6 +1,7 @@
 import '@testing-library/jest-dom';
 import { render, screen, waitFor } from '@testing-library/react';
 import { vi, expect } from 'vitest';
+import type { UseQueryResult } from '@tanstack/react-query';
 
 import Posts from './Posts';
 import {
@@ -29,7 +30,7 @@ describe('Posts', () => {
       isLoading: true,
       error: null,
       data: undefined,
-    } as any);
+    } as unknown as UseQueryResult);
 
     render(<Posts />, { wrapper });
     expect(screen.getByText('Loading...')).toBeInTheDocument();
@@ -40,7 +41,7 @@ describe('Posts', () => {
       isLoading: false,
       error: new Error('Failed to fetch'),
       data: undefined,
-    } as any);
+    } as unknown as UseQueryResult);
 
     render(<Posts />, { wrapper });
     expect(
@@ -58,7 +59,7 @@ describe('Posts', () => {
       isLoading: false,
       error: null,
       data: mockPosts,
-    } as any);
+    } as unknown as UseQueryResult);
 
     render(<Posts />, { wrapper });
 
