@@ -72,7 +72,7 @@
     "vitest": "4.1.8",
     "@storybook/addon-docs": "10.4.3"
   },
-  "packageManager": "pnpm@10.34.1",
+  "packageManager": "pnpm@10.34.2",
   "pnpm": {
     "onlyBuiltDependencies": [
       "@tailwindcss/oxide"
