@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "5.2.1",
-    "@playwright/test": "1.60.0",
+    "@playwright/test": "1.61.0",
     "@storybook/addon-links": "10.4.4",
     "@storybook/addon-onboarding": "10.4.4",
     "@storybook/react-vite": "10.4.4",
